@@ -1,0 +1,13 @@
+a=[2,4,8,9]
+s=12
+i=0
+j=1
+while(True):
+    if(a[i]+a[j])!=s:
+        if(j<len(a)-1):
+            j+=1
+        elif(j==len(a)-1):
+            i+=1
+    else:
+        print(a[i],a[j])
+        break
